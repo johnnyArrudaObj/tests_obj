@@ -1,0 +1,17 @@
+version: '3'
+
+networks:
+  backend:
+
+services:
+  php:
+    build:
+      context: php
+    container_name: php_new
+    restart: always
+    ports:
+      - 9002:80
+    volumes:
+      - ../:/var/www/html
+    networks:
+      - backend
