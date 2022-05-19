@@ -1,0 +1,9 @@
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+vendor/*
+composer.lock
+.phpunit.result.cache
+.php-cs-fixer.cache
