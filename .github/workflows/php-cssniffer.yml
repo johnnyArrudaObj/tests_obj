@@ -20,7 +20,7 @@ jobs:
           php-version: 7.4
 
       - name: Installing dependencies (づ￣ ³￣)づ ....
-        run: composer install --ignore-platform-reqs --optimize-autoloader
+        run: composer install
 
       - name: Dumping autoload (︶｡︶✽) ....
         run: composer dumpautoload -o
